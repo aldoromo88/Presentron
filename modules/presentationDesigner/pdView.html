@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Presentron Designer</title>
+    <script>
+        window.homeDir = `file://${__dirname}`+'/';
+        if (window.require) {
+            window.nodeRequire = window.require;
+            delete window.require;
+        }
+    </script>
+    <script type="text/javascript" data-main="pdViewModel" src="../../jsLibs/require/require.js"></script>
+</head>
+
+<body>
+    <h1>This is presentation designer</h1>
+    <h2 data-bind="text:Title"></h2>
+    <div>
+      <span data-bind="text:documentLocation"></span>
+    </div>
+</body>
+
+</html>

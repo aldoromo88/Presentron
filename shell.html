@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        window.homeDir = `file://${__dirname}`+'/';
+        if (window.require) {
+            window.nodeRequire = window.require;
+            delete window.require;
+        }
+    </script>
+    <script type="text/javascript" src="jsLibs/require/require.js"></script>
+    <script type="text/javascript" src="shell.js"></script>
+  </head>
+  <body>
+  </body>
+</html>

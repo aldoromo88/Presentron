@@ -1,0 +1,15 @@
+{
+  "name": "Presentron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "dependencies": {
+    "requirejs": "^2.2.0"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.2",
+    "electron-prebuilt-compile": "^1.2.0"
+  }
+}
